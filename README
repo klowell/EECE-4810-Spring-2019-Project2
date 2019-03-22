@@ -1,0 +1,24 @@
+Name: Kristopher Lowell
+
+The .zip archive should contain five files total:
+	1. Project2.c		- the main source file
+	2. prod_cons_mt.c 	- the source file for the monitor type and functions
+	3. prod_cons_mt.h	- the header file for the monitor type and functions
+	4. Makefile		- the makefile to properly make the assignment's executables
+	5. README		- the file explaining the contents of the assignment as well as how to execute the assignment
+
+The following outlines instructions on how to properly execute this assignment:
+
+1. Open "Terminal" application in a Linux/Unix environment.
+2. Using change directory commands, access the directory the project is saved in.
+3. Compile the program files to make the executable for the main program.
+	a. Type "make all" then press the Enter key.
+4. To run executable
+	a. Type "./Project2" followed by a space. 
+	b. Type the desired buffer size followed by a space.
+	c. Type the desired amount of producer threads followed by a space.
+	d. Type the desired amount of consumer threads then the press Enter key.
+	e. Ex. "./Project2 3 3 4"
+	f. Any arguments past the previously described will be ignored.
+5. Remove the object and executable files when finished executing the assignment.
+	a. Type "make clean" then press the Enter key.
